@@ -1,0 +1,468 @@
+nav,
+header
+footer{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+.initial{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.d-flex, .p-2, .bd-highlight, .flex-container-fluid{
+    padding: 0!important;
+}
+
+.flex-container-fluid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    align-content: center;
+}
+.wix1 {
+    display: flex;
+}
+
+.ahref1{
+    text-decoration: none;
+    border: none;
+}
+
+.wixtxt{
+    color: rgb(0, 0, 51);
+    font-size: 2.5em;
+    margin-left: 2em;
+    margin-right: 1em;
+    line-height: 1.5;
+    font-style: italic;
+    
+}
+.desktop{
+    margin-top: 15px;
+    opacity: .5;
+}
+
+.txtt{
+    display: flex;
+}
+.txt1{
+    line-height: 4;
+    color: rgb(115, 77, 38);
+    
+}
+.rdmore{
+    text-decoration: underline;
+    line-height: 2.5;
+    margin-right:1em;
+    padding: 12px;
+    color: rgb(115, 77, 38);
+}
+.btn1{
+    border-radius: 90px;
+    height: 45px;
+    text-align: center;
+    margin-right: 45px;
+    
+}
+.nav-container{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.knoll{
+    margin-left: 7em;
+}
+.header2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(15, 15, 62);
+}
+.ulnav{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 67px;
+    
+}
+.ulnav li a{
+    color: rgb(115, 77, 38);
+}
+.ulnav li a:hover{
+    color: rgb(204, 204, 255);
+    /*border-bottom: 1px solid rgb(204, 204, 255);*/
+}
+
+.background-img{
+    background: url(wixpix/5bfb6f_a463284fd84145f292a32dc0f0e0cc31.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.boutique{
+    height: 550px;
+
+}
+.imgdiv{
+    background: rgba(0, 26, 51, 0.4);
+    
+}
+.boutique{
+    background: rgba(0, 51, 102, 0.6);
+    margin: 0;
+    position: relative;
+    width: 40%;
+}
+.boutique1{
+    margin-left: 11.5em;
+    position: relative;
+     
+}
+/*.boutique1{
+    position: fixed;
+    left: 0;
+}*/
+.had1 h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.heder1{
+    padding-top: 4em;
+}
+.lfm > h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-size: 3em;
+    font-family: sans-serif;
+    
+    
+}
+.para1{
+    color: #fff;
+    font-size: 19px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.grid-item{
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: minmax(6em, auto);
+    grid-gap: 2em;
+    padding: 0;
+}
+
+.grid2-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(6em, auto);
+    grid-gap: 2em;
+    justify-content: center;
+    
+   
+}
+.grid1{
+    background: rgb(230, 242, 255);
+}
+.head3{
+    margin-top: 16%; 
+    margin-left: 36%;
+    color: (0, 26, 51);
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.head4 {
+    margin-top: 0; 
+    margin-left: 36%;
+    color: rgb(0, 26, 51);
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+}
+.ultop{
+    margin-top: 25%;
+    /*margin-right: 20%;*/
+    
+}
+.square{
+   
+    color: rgb(26, 178, 255);
+    margin-right: 14px;
+}
+.x65q{
+    padding-right: 30px;
+    color: #00305b
+}
+
+.p3x2{
+    color: #0f4c85;
+    margin-top: 2em;
+    text-align: justify;
+    margin-right: 5em;
+
+}
+.vission{
+    background-color: rgb(0, 0, 77);
+}
+.ourvission{
+    /*margin-top: 10%;*/
+    padding: 10% 0 8% 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.paragrahcnt{
+    max-width: 80%;
+    margin-left: 10%;
+}
+.para1{
+    color: #fff;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+p:last-child{
+    padding-bottom: 8%;
+}
+.image2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: minmax(6em, auto);
+    margin: 0;
+    padding: 0;
+    /*display: flex;
+    justify-content: space-evenly;*/
+}
+
+.ggbrt{
+    background: url(wixpix/5bfb6f_bb013bf1966340ceb9a576d68aa42273.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+     width: 100%;
+    /*height: 600px;*/
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+}
+.ggbrt1{
+    height: 900px;
+    background-color: white;
+    opacity: 0.1;
+}
+.ourattorneys{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e6ffff;
+}
+.ima23{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(0, 0, 77);
+    
+    
+}
+.attorneys{
+    text-align: center;
+    padding:  7% 0 7% 0;
+    color: rgb(0, 0, 77);
+    opacity: 1;
+    
+}
+h4{
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.kkigb1{
+    width: 200px;
+    height: 250px;
+    background-image: url(wixpix/5bfb6f_5577b01919214f47ad5236247965ec04.webp);
+    background-size: cover;
+    
+}
+.kkigb2{
+    width: 200px;
+    height: 250px;
+    background-image: url(wixpix//5bfb6f_60ff20475dbc447f92c81fdcc6a6a7c1.webp);
+    background-size: cover;
+
+}
+.kkigb3{
+    width: 200px;
+    height: 250px;
+    background-image: url(wixpix//5bfb6f_1cafad56984b4997bd73792b008c6fc3.webp);
+    background-size: cover;
+
+}
+hr{
+    background: rgb(179, 230, 255);
+    width: 150px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.bluebackground{
+    background-image: url(wixpix/5bfb6f_c9a631e8e43443cb9d7ad97133d9d83d.webp);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;    
+
+}
+/*.partiner{
+    padding: 2em 0 3em 0;
+}*/
+
+.tel{
+    padding-bottom: 4em;
+}
+.bluebackground2 {
+    background: rgb(0, 0, 179, .3);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.grid-down{
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-gap: 2em;
+    background: rgb(51, 51, 255, .5);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.contact{
+    background: rgb(0, 0, 51, .1);
+    height: 617px;
+
+}
+.contacth2{
+    color: #ffffff;
+    margin-left: 45%;
+    padding: 17% 0;
+    font-size: 2.7em;
+}
+.ouraddress{
+    padding: 10% 0 3% 0 ;
+    color:#fff;
+    margin-left: 11px
+}
+
+.contact-add{
+    color: #ffffff;
+    line-height: 1.5;
+    margin-left: 11px;
+}
+.click-here{
+    padding: 23px 0 29px 0;
+    font-size: 1.6em;
+    margin-left: 11px;
+    
+}
+.click-here a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-bottom: 2em;
+
+}
+.form-area{
+    display: grid;
+    grid-template-columns: auto auto 2fr;
+    grid-gap: 1.7em;
+}
+.form-cal > div{
+    padding: 10px;
+    
+
+}
+label{
+    color: #ffffff;
+    margin: 0 0 0 11px;
+}
+input{
+    border: none;
+    width: 300px;
+    height: 1.8em;
+}
+textarea{
+    height: 224px;
+    border: none;
+    line-height: 2;
+    color: -internal-light-dark(black, white);
+}
+input:hover{
+    border: 3px solid rgb(121, 255, 77)
+}
+textarea:hover{
+    border: 3px solid rgb(121, 255, 77);
+}
+.sub-btn{
+    width: 600px;
+    margin-left: 10px;
+    height: 40px;
+    border: 1px solid #fff;
+    /*background:   rgb(51, 51, 255, .5);*/
+    background: transparent;
+    margin-bottom: 15px;
+
+}
+.sub-btn:hover{
+    background: rgb(0, 0, 51);
+}
+.backtotop{
+    background:rgb(0, 0, 51);
+    text-align: center;
+    
+}
+.header5{
+    color: #ffffff;
+    font-size: 1em;
+    padding: 2em;
+    text-transform: uppercase;
+}
+.footsy{
+    margin-left: 10%;
+    padding-top: 3%;
+}
+.footsy p {
+    color: rgb(0, 102, 153);
+}
+.footsy a {
+    color: rgb(0, 102, 153);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+   
+    
+  }
+
